@@ -39,11 +39,11 @@ nt = opts.nt;   crit = ones(nt, 3);
 %% Initial function value and gradient
 % prepare for iterations
 [F,  Gu, Gv] = feval(fun, U, V, varargin{:});  out.nfe = 1;
-UG=U'*Gu;  Gradu=Gu-0.5*U*(UG+UG');%%%%ÀèÂüÌİ¶È
+UG=U'*Gu;  Gradu=Gu-0.5*U*(UG+UG');%%%%é»æ›¼æ¢¯åº¦
 VG=V'*Gv;  Gradv=Gv-0.5*V*(VG+VG');
 
 
-Zu=-Gradu; Zv=-Gradv;%%ËÑË÷·½Ïò
+Zu=-Gradu; Zv=-Gradv;%%æœç´¢æ–¹å‘
 prodGZ=sum(dot(Gradu,Zu,1))+sum(dot(Gradv,Zv,1));
 nrmGradu=norm(Gradu,'fro'); nrmGradv=norm(Gradv,'fro');
 
