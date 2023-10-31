@@ -29,13 +29,12 @@ Contents:
 |Sato's\Alg2.m  |Sato's conjugate gradient method of truncated svd   |
 |Sato's\Alg3.m | Sato's Newton method  of truncated svd |
 |Sato's\CR.m | Sub-code for Alg3（solve the system of linear equations）|
-|figure | Numerical results figure|
 | README.txt   | this file   |
 
 ## Notes:
 Table 5.1 and Figure 5.1 show the complex symmetric matrix A of Example1 by running "main_singular.m" in the "Our" folder and "Sato's" folder, respectively.
 
-Table 5.2 and Figure 5.2 are calculated by running "main_singular.m" in the "Our" folder, and the reader can adjust the dimensionality by himself/herself.
+Table 5.2 and Figure 5.2 are calculated by running "main_singular.m" in the "Our" folder several times, and the reader can adjust the dimensionality by himself/herself.
 
 ## References
 + Kong L and Chen X. Riemannian optimization methods for the  truncated Takagi factorization. Numerical Algorithms, 2023
